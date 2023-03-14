@@ -24,6 +24,44 @@
     <p>The fun thing is that you can easily control one view from another without any line of JavaScript just using "data-view" attribute on links.</p>
   </Block>
 
+  <Block>
+  <Row>
+    <Col>
+  <Card class="demo-card-header-pic">
+    <CardHeader
+      class="no-border"
+      valign="bottom"
+      style="background-image: url(https://cdn.framework7.io/placeholder/nature-1000x600-3.jpg)"
+    >Journey To Mountains</CardHeader>
+    <CardContent>
+      <p class="date">Posted on January 21, 2015</p>
+      <p>Quisque eget vestibulum nulla. Quisque quis dui quis ex ultricies efficitur vitae non felis. Phasellus quis nibh hendrerit...</p>
+    </CardContent>
+    <CardFooter>
+      <Link>Like</Link>
+      <Link>Read more</Link>
+    </CardFooter>
+  </Card>
+  </Col><Col>
+  <Card class="demo-card-header-pic">
+    <CardHeader
+      class="no-border"
+      valign="bottom"
+      style="background-image: url(https://cdn.framework7.io/placeholder/nature-1000x600-3.jpg)"
+    >Journey To Mountains</CardHeader>
+    <CardContent>
+      <p class="date">Posted on January 21, 2015</p>
+      <p>Quisque eget vestibulum nulla. Quisque quis dui quis ex ultricies efficitur vitae non felis. Phasellus quis nibh hendrerit...</p>
+    </CardContent>
+    <CardFooter>
+      <Link>Like</Link>
+      <Link>Read more</Link>
+    </CardFooter>
+  </Card>
+</Col>
+</Row>
+</Block>
+
   <BlockTitle>Navigation</BlockTitle>
   <List>
     <ListItem link="/about/" title="About"/>
@@ -85,6 +123,10 @@
     ListItem,
     Row,
     Col,
-    Button
+    Button,
+    Card,
+    CardHeader,
+    CardContent,
+    CardFooter
   } from 'framework7-svelte';
 </script>

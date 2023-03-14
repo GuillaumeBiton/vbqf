@@ -1,0 +1,20 @@
+{
+  "cwd": "/workspace/vbqf",
+  "type": [
+    "web",
+    "pwa"
+  ],
+  "name": "vbqf",
+  "framework": "svelte",
+  "template": "split-view",
+  "cssPreProcessor": "less",
+  "bundler": "vite",
+  "theming": {
+    "customColor": false,
+    "color": "#007aff",
+    "darkTheme": false,
+    "iconFonts": true,
+    "fillBars": false
+  },
+  "customBuild": false
+}

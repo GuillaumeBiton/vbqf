@@ -38,7 +38,7 @@
       <p>Quisque eget vestibulum nulla. Quisque quis dui quis ex ultricies efficitur vitae non felis. Phasellus quis nibh hendrerit...</p>
     </CardContent>
     <CardFooter>
-      <Link>Like</Link>
+      <Link><Icon f7="heart" /></Link>
       <Link>Read more</Link>
     </CardFooter>
   </Card>
@@ -54,7 +54,7 @@
       <p>Quisque eget vestibulum nulla. Quisque quis dui quis ex ultricies efficitur vitae non felis. Phasellus quis nibh hendrerit...</p>
     </CardContent>
     <CardFooter>
-      <Link>Like</Link>
+      <Link><Icon f7="heart" /></Link>
       <Link>Read more</Link>
     </CardFooter>
   </Card>
@@ -127,6 +127,7 @@
     Card,
     CardHeader,
     CardContent,
-    CardFooter
+    CardFooter,
+    Icon
   } from 'framework7-svelte';
 </script>

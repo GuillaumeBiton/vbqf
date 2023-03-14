@@ -26,7 +26,7 @@
 
   <Block>
   <Row>
-    <Col>
+    <Col width="100" medium="50">
   <Card class="demo-card-header-pic">
     <CardHeader
       class="no-border"
@@ -42,7 +42,7 @@
       <Link>Read more</Link>
     </CardFooter>
   </Card>
-  </Col><Col>
+  </Col><Col width="100" medium="50">
   <Card class="demo-card-header-pic">
     <CardHeader
       class="no-border"

@@ -1,23 +1,33 @@
-// Import Framework7
-import Framework7 from 'framework7/lite-bundle';
+import $ from 'dom7';
+import Framework7 from 'framework7/bundle';
 
-// Import Framework7-Svelte Plugin
-import Framework7Svelte from 'framework7-svelte';
-
-// Import Framework7 Styles
+// Import F7 Styles
 import 'framework7/css/bundle';
 
 // Import Icons and App Custom Styles
 import '../css/icons.css';
-import '../css/app.less';
+import '../css/app.css';
 
-// Import App Component
-import App from '../components/app.svelte';
 
-// Init F7 Svelte Plugin
-Framework7.use(Framework7Svelte)
+// Import Routes
+import routes from './routes.js';
+// Import Store
+import store from './store.js';
 
-// Mount Svelte App
-const app = new App({
-  target: document.getElementById('app'),
+// Import main app component
+import App from '../app.f7';
+
+
+var app = new Framework7({
+  name: 'vbqf', // App name
+  theme: 'auto', // Automatic theme detection
+
+
+  el: '#app', // App root element
+  component: App, // App main component
+
+  // App store
+  store: store,
+  // App routes
+  routes: routes,
 });
